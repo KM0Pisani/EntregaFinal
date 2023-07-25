@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+
+header{padding-left:  40%;
+  border: 6.3%;
+    color: rgb(86, 38, 131);
+    font-size: 300%;
+}
+
+
+
+.fondo{
+    color: rgb(86, 38, 131);
+    font-size: 300%;
+    padding-block: 10px;
+   padding-left:  30%;
+  border: 1.5%;
+}
+
+.menu{
+ display: inline;
+ margin-inline: 10px;
+
+}
+
+.menu__item{
+  display: inline-block;
+  margin: 10px;
+
+}
+.menu__item a{
+  color: black;
+  text-decoration: none;
+}
+.menu__item a:hover{
+  text-decoration: underline double;
+}
+
+
+.logo{
+
+    max-width: 270px ;
+    max-height: 1200px;
+padding-left: 30px;
+
+}
+
+  footer{
+    padding-left: 16.5%;
+
+  }
+
+  .texto{
+    display: inline;
+    margin: 1.5%;
+    width: 164px;
+
+  }
+
+  p {
+    padding-left: 16%;
+    font-size: 260%;
+    font-weight: 900;
+     width:80%;
+    height:6%;
+    border: 4.5%;
+  }
+
+.img{
+  width: 200%;
+  padding-left:1.5%;
+ }
+
+ .formulario{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+   padding-left: 20%;  font-family: 'Times New Roman', Times, serif;
+   width: 100%;
+   padding-right: 30%; 
+   border-left:30% ;
+
+ }
+ .celdas{
+  display: flex;
+  justify-content: center;
+  font-size: 600%;
+  font-family: 'Times New Roman', Times, serif;
+  flex-wrap: wrap ;
+  width: 700px;
+  height: 70px;
+ }
+ .formulario input,
+ .formulario textarea,
+ .formulario select {
+  justify-items: center;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+  font-size: 30%;
+   margin-bottom: 10px;
+   font-family: 'Times New Roman', Times, serif;
+   border-radius: 4px;
+ }
+
+ .top{
+  display: flex;
+  
+  flex-wrap: wrap;
+
+  padding: 0.5%;
+
+
+ }
+.topb{
+  display: flex;
+ justify-content:center;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+  width: 13%;
+  padding-left:16%;
+  font-size: 300%;
+  border: 3%;
+ 
+}
+ .numero{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+  width: 13%;
+  padding-left:16%;
+  border: 3%;
+  font-size: 500%;
+ 
+ }
+ 
+ .compartido{
+  padding-top: 50px;
+ width: 63% ;
+ height: 620px;
+padding-left: 33%;  
+  border: 5%;
+  
+ }
