@@ -46,12 +46,12 @@ header{padding-left:  40%;
 
     max-width: 250px ;
     max-height: 1200px;
-padding-left: 30px;
+padding-left: 55px;
 
 }
 
   footer{
-    padding-left: 16.5%;
+    padding-left: 25.5rem;
 
   }
 
@@ -110,23 +110,26 @@ padding-left: 30px;
    font-family: 'Times New Roman', Times, serif;
    border-radius: 4px;
  }
+.carousel{
+ display: flex;
+ padding-left: 50rem;
 
- .top{
-  display: flex;
-  
-  flex-wrap: wrap;
+}
+.carousel-inner img {
+max-height: 300px;
+max-width: 500px;
+ 
+}
+.top{      display: flex; flex-wrap: wrap;
+      padding: 0.5%;   }
 
-  padding: 0.5%;
-
-
- }
 .topb{
   display: flex;
  justify-content:center;
   flex-wrap: wrap;
   box-sizing: content-box;
   width: 13%;
-  padding-left:16%;
+  padding-left:23rem;
   font-size: 300%;
   border: 3%;
  
@@ -137,17 +140,26 @@ padding-left: 30px;
   flex-wrap: wrap;
   box-sizing: content-box;
   width: 13%;
-  padding-left:16%;
+  padding-left:25.5rem;
   border: 3%;
   font-size: 500%;
  
  }
  
- .compartido{
-  padding-top: 50px;
- width: 58% ;
- height: 420px;
-padding-left: 33%;  
-  border: 5%;
-  
- }
+ .musica{
+  display: grid;
+  grid-template-columns: 555px ;
+  grid-row: 1fr 1fr 1fr;
+  padding-left: 50.5rem;  
+
+}
+.compartido1{
+  padding: 2px;
+}
+.compartido2{
+ padding: 1px;
+}
+.compartido3{
+  padding: 2px;
+}
+
