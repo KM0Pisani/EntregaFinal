@@ -120,32 +120,30 @@ max-height: 300px;
 max-width: 500px;
  
 }
-.top{      display: flex; flex-wrap: wrap;
-      padding: 0.5%;   }
-
-.topb{
-  display: flex;
- justify-content:center;
-  flex-wrap: wrap;
-  box-sizing: content-box;
-  width: 13%;
-  padding-left:23rem;
-  font-size: 300%;
-  border: 3%;
- 
+.column {
+  float: left;
+  width: 650px;
+  padding-left: 18%;
 }
- .numero{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  box-sizing: content-box;
-  width: 13%;
-  padding-left:25.5rem;
+h3,h2{  width: 30px;
+  padding-left:10%;
   border: 3%;
-  font-size: 500%;
+  font-size: 300%;
  
- }
- 
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 60px) {
+
+  .column {
+    width: 3rem;
+  }
+}
+
  .musica{
   display: grid;
   grid-template-columns: 555px ;
