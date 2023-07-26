@@ -9,23 +9,25 @@
 header{padding-left:  40%;
   border: 6.3%;
     color: rgb(86, 38, 131);
-    font-size: 300%;
+    font-size: 250%;
 }
 
 
 
 .fondo{
     color: rgb(86, 38, 131);
-    font-size: 300%;
+    font-size: 250%;
     padding-block: 10px;
-   padding-left:  30%;
-  border: 1.5%;
+    justify-content: center;
+    align-items: center;
+    border: 1.5%;
 }
 
 .menu{
- display: inline;
+ display: flex;
  margin-inline: 10px;
-
+ justify-content: center;
+  align-items: center;
 }
 
 .menu__item{
@@ -43,55 +45,53 @@ header{padding-left:  40%;
 
 
 .logo{
-
-    max-width: 250px ;
-    max-height: 1200px;
-padding-left: 55px;
+  display: line;
+  justify-content: center;
+  align-items: center;
+  max-width: 100px ;
+  max-height: 200px;
 
 }
 
-  footer{
-    padding-left: 25.5rem;
-
-  }
-
-  .texto{
+.texto{
     display: inline;
     margin: 1.5%;
     width: 164px;
 
   }
 
-  p {
-    padding-left: 25.5rem;
-    font-size: 260%;
-    font-weight: 900;
-     width:80%;
+  p { justify-content: center;
+    align-items: center;
+    padding-left: 13rem;
+    font-size: 220%;
+    font-weight: 500;
+     width:85%;
     height:6%;
     border: 4.5%;
   }
 
-.img{
-  width: 200%;
-  padding-left:25.5rem;
- }
-
- .formulario{
-
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   flex-wrap: wrap;
-   align-items: center;
-   padding-left: 20%;  font-family: 'Times New Roman', Times, serif;
-   width: 100%;
-   padding-right: 30%; 
-   border-left:30% ;
+.img{display: flex;
+  justify-content: center;
+  align-items: center;
 
  }
+ img{
+  max-width: 100%;
+    max-height: 100%;
+}  
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%; }
+
  .celdas{
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 600%;
   font-family: 'Times New Roman', Times, serif;
   flex-wrap: wrap ;
@@ -110,26 +110,22 @@ padding-left: 55px;
    font-family: 'Times New Roman', Times, serif;
    border-radius: 4px;
  }
-.carousel{
- display: flex;
- padding-left: 50rem;
-
+.carrousel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .carousel-inner img {
 max-height: 300px;
-max-width: 500px;
+max-width: 400px;
  
 }
 .column {
   float: left;
-  width: 650px;
-  padding-left: 18%;
+  width: 750px;
 }
-h3,h2{  width: 30px;
-  padding-left:10%;
-  border: 3%;
-  font-size: 300%;
- 
+h3,h2{  width: 130px;
+  font-size: 250%;
 
 }
 .row:after {
@@ -144,11 +140,12 @@ h3,h2{  width: 30px;
   }
 }
 
- .musica{
+ .musica{ justify-content: center;
+  align-items: center;
   display: grid;
   grid-template-columns: 555px ;
   grid-row: 1fr 1fr 1fr;
-  padding-left: 50.5rem;  
+   
 
 }
 .compartido1{
@@ -161,3 +158,9 @@ h3,h2{  width: 30px;
   padding: 2px;
 }
 
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
