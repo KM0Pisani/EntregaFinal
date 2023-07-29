@@ -64,12 +64,12 @@ header{padding-left:  40%;
 
   p { justify-content: center;
     align-items: center;
-    padding-left: 13rem;
+    padding-left: 10rem;
     font-size: 220%;
     font-weight: 500;
-     width:85%;
+     width:80%;
     height:6%;
-    border: 4.5%;
+    border: 12.5%;
   }
 
 .img{display: flex;
@@ -126,9 +126,13 @@ max-width: 400px;
   float: left;
   width: 750px;
 }
-h3,h2{  width: 130px;
+h2{  width: 100%;
+  font-size: 150%;
+  padding: .5rem;
+}
+h3{width: 130px;
   font-size: 250%;
-
+padding-left: 5rem;
 }
 .row:after {
   content: "";
@@ -141,6 +145,16 @@ h3,h2{  width: 130px;
     width: 3rem;
   }
 }
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr ;
+ max-width: 100%;
+
+}
+
+
+
+
 
  .musica{ justify-content: center;
   align-items: center;
