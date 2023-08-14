@@ -1,0 +1,16 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .logo{
+        
+        max-width: 130px ;
+        max-height: 200px;
+      padding-left: 1rem;
+      }
+  }
+  .logo:hover{
+    transition: 0.3s;
+    transform: rotate(360deg);
+  
+  }

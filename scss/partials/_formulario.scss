@@ -1,0 +1,41 @@
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;  input,
+    textarea,
+    select {
+     justify-items: center;
+     align-items: center;
+     width: 300px;
+     height: 40px;
+     font-size: 30%;
+      margin-bottom: 10px;
+      font-family: 'Times New Roman', Times, serif;
+      border-radius: 4px;
+    }  .celdas{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 600%;
+      font-family: 'Times New Roman', Times, serif;
+      flex-wrap: wrap ;
+      width: 700px;
+      height: 70px;
+     }}
+  .carrousel{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+   .carousel-inner img {
+      max-height: 300px;
+      max-width: 400px;
+       
+      }
+}
+.celdas:hover{
+  transform: translate(30px);
+}
