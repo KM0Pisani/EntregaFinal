@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(3, 50px);
+    gap: 10px;
+}
+
+.grid-item{
+   
+      font-size: 150%;
+      font-weight: 400;
+    padding-left: 3rem;
+    h2{
+      font-size: 150%;
+    font-weight: 300;
+    }
+ h3{
+  padding-left: 10rem;
+ font-size: 200%;
+ }
+    }
+    @media screen and (max-width: 1250px) {
+       
+        .grid-container {
+          grid-template-columns: 3fr;
+          grid-template-rows: repeat(3, 100px);
+          grid-template-rows:repeat(3, 100px);
+           gap: 10px;
+             }
+        h2{padding-left: 2rem;
+          font-size: 155%;
+        font-weight: 500;
+        }
+     h3{
+     font-size: 200%;
+     }
+      }
+     

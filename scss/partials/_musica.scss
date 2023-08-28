@@ -1,13 +1,14 @@
 .musica{ justify-content: center;
     align-items: center;
     display: grid;
-    grid-template-columns: 555px ;
-    grid-row: 1fr 1fr 1fr;
+    grid-template-columns: 600px ;
+    grid-row: 2fr;
     
     @for $i from 1 through 3 {
       
       .compartido#{$i}{
-         padding: 2px * $i;}
+     
+       padding: 1rem * $i;}
        }
 }
    
