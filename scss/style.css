@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,17 +8,16 @@
 }
 
 header {
-  padding-left: 40%;
   border: 6.3%;
   color: rgb(0, 0, 0);
-  font-size: 250%;
+  font-size: 450%;
   justify-content: center;
   align-items: center;
-  padding-left: 47%;
+  padding-left: 45%;
+  font-family: "Unbounded";
 }
 
 .fondo {
-  font-size: 250%;
   padding-block: 10px;
   justify-content: center;
   align-items: center;
@@ -23,29 +25,32 @@ header {
 }
 
 .menu {
+  font-family: "Sora";
+  font-weight: bold;
   display: flex;
   margin-inline: 10px;
   justify-content: center;
   align-items: center;
+  font-size: 200%;
 }
 .menu .menu__item {
   display: inline-block;
   margin: 10px;
 }
 .menu .menu__item a {
-  color: black;
+  color: #4E3B78;
   text-decoration: none;
+  padding: 0.5rem;
 }
 .menu .menu__item a:hover {
-  -webkit-text-decoration: underline double;
-          text-decoration: underline double;
+  background-color: #d5c5f8;
+  border-radius: 25px;
 }
 .menu .column {
   float: left;
   width: 750px;
 }
 .menu .row:after {
-  content: "";
   display: table;
   clear: both;
 }
@@ -53,6 +58,9 @@ header {
   .menu .column {
     width: 3rem;
   }
+}
+.menu .menu__item a {
+  color: #4E3B78;
 }
 
 .texto {
@@ -62,11 +70,13 @@ header {
 }
 .texto p {
   justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   align-items: center;
-  padding-left: 5rem;
-  font-size: 220%;
+  padding: 5rem;
+  font-size: 200%;
   font-weight: 500;
   border: 12.5%;
+  text-align: left;
 }
 
 .grid-container {
@@ -74,20 +84,26 @@ header {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 50px);
   gap: 10px;
+  padding-top: 3rem;
 }
 
 .grid-item {
   font-size: 150%;
-  font-weight: 400;
-  padding-left: 3rem;
-}
-.grid-item h2 {
-  font-size: 150%;
   font-weight: 300;
 }
+.grid-item h2 {
+  font-family: "Sora";
+  font-size: 120%;
+  padding-left: 13%;
+  font-weight: 250;
+  color: #4E3B78;
+}
 .grid-item h3 {
-  padding-left: 10rem;
-  font-size: 200%;
+  font-family: "Sora";
+  padding-left: 35%;
+  font-size: 150%;
+  color: #4E3B78;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1250px) {
@@ -98,7 +114,6 @@ header {
     gap: 10px;
   }
   h2 {
-    padding-left: 2rem;
     font-size: 155%;
     font-weight: 500;
   }
@@ -110,27 +125,28 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-inline: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .img img {
   max-width: 100%;
-  max-height: 100%;
 }
 
 .musica {
   justify-content: center;
   align-items: center;
   display: grid;
-  grid-template-columns: 600px;
-  grid-row: 2fr;
+  grid-template-columns: 570px;
 }
 .musica .compartido1 {
-  padding: 1rem;
+  padding-top: 2rem;
 }
 .musica .compartido2 {
-  padding: 2rem;
+  padding-top: 4rem;
 }
 .musica .compartido3 {
-  padding: 3rem;
+  padding-top: 6rem;
 }
 
 .formulario {
@@ -139,27 +155,30 @@ header {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100%;
 }
 .formulario input,
 .formulario textarea,
 .formulario select {
+  background-color: #d5c5f8;
   justify-items: center;
   align-items: center;
   width: 300px;
   height: 40px;
   font-size: 30%;
   margin-bottom: 10px;
-  font-family: "Times New Roman", Times, serif;
-  border-radius: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  border-radius: 13px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 .formulario .celdas {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 600%;
-  font-family: "Times New Roman", Times, serif;
+  font-size: 400%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   flex-wrap: wrap;
   width: 700px;
   height: 70px;
@@ -174,6 +193,10 @@ header {
   max-height: 300px;
   max-width: 400px;
 }
+.carrousel .carousel-control-prev,
+.carrousel .carousel-control-next {
+  display: none;
+}
 
 .celdas:hover {
   transform: translate(30px);
@@ -185,9 +208,9 @@ footer {
   align-items: center;
 }
 footer .logo {
-  max-width: 130px;
-  padding-left: 1rem;
-  max-height: 200px;
+  max-width: 150px;
+  padding: 1.5rem;
+  max-height: 110px;
 }
 
 .logo:hover {

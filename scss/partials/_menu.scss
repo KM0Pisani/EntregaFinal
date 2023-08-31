@@ -1,26 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+
 .fondo{
-    font-size: 250%;
+    
     padding-block: 10px;
     justify-content: center;
     align-items: center;
     border: 1.5%;
 }
-.menu{
+.menu{font-family:"Sora"; 
+  font-weight: bold;
     display: flex;
     margin-inline: 10px;
     justify-content: center;
      align-items: center;
+     font-size: 200%;
      .menu__item{
          display: inline-block;
          margin: 10px;
-       
+
        }
        .menu__item a{
-         color: black;
+         color:#4E3B78;
          text-decoration: none;
+         padding: 0.5rem;
        }
-       .menu__item a:hover{
-         text-decoration: underline double;
+       .menu__item a:hover{  background-color:#d5c5f8;
+        border-radius: 25px; 
+      
        }
        .column {
          float: left;
@@ -28,7 +34,7 @@
        }
       
        .row:after {
-         content: "";
+       
          display: table;
          clear: both;
        }
@@ -39,6 +45,6 @@
          }
        }
        
-       
+      .menu__item a{  color:#4E3B78;}
        
    }

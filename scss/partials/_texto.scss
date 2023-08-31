@@ -1,14 +1,14 @@
-  
+ 
   .texto{
     display: inline;
     margin: 1.5%;
     width: 164px;
     p { justify-content: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
       align-items: center;
-      padding-left: 5rem;
-      font-size: 220%;
+      padding: 5rem;
+      font-size: 200%;
       font-weight: 500;
       border: 12.5%;
-    }
-  }
-
+      text-align: left;
+    }}

@@ -4,29 +4,32 @@
     align-items: center;
      flex-direction: column;
     flex-wrap: wrap;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;  input,
     textarea,
-    select {
+    select { 
+      background-color: #d5c5f8;
      justify-items: center;
      align-items: center;
      width: 300px;
      height: 40px;
      font-size: 30%;
       margin-bottom: 10px;
-      font-family: 'Times New Roman', Times, serif;
-      border-radius: 4px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      border:none;border-radius: 13px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
     }  .celdas{
       display: flex;
       justify-content: center;
       align-items: center;
-      font-size: 600%;
-      font-family: 'Times New Roman', Times, serif;
+      font-size: 400%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
       flex-wrap: wrap ;
       width: 700px;
       height: 70px;
      }}
   .carrousel{
+    
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -35,6 +38,10 @@
       max-width: 400px;
        
       }
+      .carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
 }
 .celdas:hover{
   transform: translate(30px);
